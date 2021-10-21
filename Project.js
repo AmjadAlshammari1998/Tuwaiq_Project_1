@@ -56,7 +56,7 @@ function addprodect() {
     price: Price.val(),
   };
   PharmacyArr.push(newprodect);
-  renderArr([newprodect]);
+  renderArr(PharmacyArr);
 }
 DivA.hide();
 function showHandler() {
@@ -71,7 +71,4 @@ function deletPharmacyArr(index) {
   renderArr(PharmacyArr);
 }
 
-/*let addprodect = "Pharmacy";
-localStorage.setItem("Age",age);
-alert(localStorage.getItem("Age"));*/
 
